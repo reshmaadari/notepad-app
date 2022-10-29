@@ -1,0 +1,15 @@
+.center{
+    text-align: center;
+}
+button{
+    border: 3px solid black;
+}
+.mat-form-field{
+    width: 60%;
+}
+.mat-label{
+    text-align: left;
+}
+textarea{
+    height: 300px;
+}

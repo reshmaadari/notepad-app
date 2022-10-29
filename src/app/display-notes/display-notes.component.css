@@ -1,0 +1,37 @@
+.display{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.carddiv{
+    width: 50%;
+    margin-top:1cm ;
+    height: 40%;
+}
+.mat-card-subtitle{
+    word-wrap: break-word;
+}
+button{
+    /* position:fixed; */
+    margin-top: 40%;
+    border: 3px solid ;
+    text-align: center;
+}
+.mat-card{
+    border: 2px solid rgb(189, 154, 154);
+    /* width: 50%; */
+    /* height: 40px; */
+    /* size: fixed; */
+}
+.btn{
+    text-align: center;
+}
+.mat-icon{
+    
+    color: rgb(207, 147, 147);
+}
+.icon{
+    text-align: right;
+    /* margin-right: -10%; */
+    float: right;
+}

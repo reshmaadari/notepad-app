@@ -1,0 +1,20 @@
+<div class="display">
+    <br><br>
+    <div class="carddiv" *ngIf="notes.length>0" >
+        <div *ngFor="let x of notes;let i = index">
+            <mat-card>{{x.title}}
+                <span class="icon"><mat-icon (click)="delete(i)">close</mat-icon></span>
+                <br><br>
+                <mat-card-subtitle>{{x.notes}}</mat-card-subtitle>
+            </mat-card><br><br>
+        </div>
+        <div class="btn">
+            <button *ngIf="!isHidden" (click)="addNotes()" mat-stroked-button color="primary">+ADD</button>
+        </div>
+    </div>
+    <div *ngIf="notes.length == 0">
+    <div class="btn">
+        <button *ngIf="!isHidden" (click)="addNotes()" mat-stroked-button color="primary">+ADD</button>
+    </div>
+    </div>
+</div>
